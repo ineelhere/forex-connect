@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-def query_forex_data(base=None, symbols=None, amount=None, callback=None, places=None, source=None):
+def query(base=None, symbols=None, amount=None, callback=None, places=None, source=None):
     base_url = 'https://api.exchangerate.host/latest'
     params = {'base': 'USD'}  # Assuming base currency is always USD
 
@@ -41,7 +41,7 @@ def query_forex_data(base=None, symbols=None, amount=None, callback=None, places
 # Example usage of the function:
 if __name__ == "__main__":
     # Call the function with various options to query forex data
-    result_df = query_forex_data(symbols='EUR,GBP,INR,PLN', amount=100, places=2, source='ecb')
+    result_df = query(symbols='EUR,GBP,INR,PLN', amount=100, places=2, source='ecb')
 
     # Print the DataFrame
     print(result_df)
