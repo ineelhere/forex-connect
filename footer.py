@@ -1,14 +1,20 @@
-# Forex 💸 Connect
+import streamlit as st
 
-Explore Foreign Currency Exchange rates 💰 in real-time
+def footer():
+    st.sidebar.info("The data is being obtained from the API provided by https://exchangerate.host.")
+    
+    st.sidebar.markdown("""
+    ___
+    Collaborations are always welcome!
+    <a href="https://github.com/ineelhere/forex-connect" target="_bank" style="text-decoration: none;">
+    github.com/ineelhere/forex-connect
+    </a>
+    [![](https://img.shields.io/github/stars/ineelhere/forex-connect?style=social)](https://github.com/ineelhere/forex-connect) &nbsp; 
+    """, unsafe_allow_html=True)
 
-The data is being obtained from the API provided by [https://exchangerate.host](https://exchangerate.host/).
 
-Please visit the app for more details!
-
-
-
-<p class="jumbotron-heading" align='center'>
+    st.sidebar.markdown("""
+    <p class="jumbotron-heading" align='center'>
     Indraneel Chakraborty | 2023
     <br>
     <a href="mailto:hello.indraneel@gmail.com" target="_bank" style="text-decoration: none;">
@@ -25,6 +31,4 @@ Please visit the app for more details!
     <a href="https://github.com/ineelhere" target="_bank" style="text-decoration: none;">
       <img width="26" height="26" src="https://github.com/fluidicon.png" alt="Github">
     </a>
-  </p>
-
----
+  </p>""", unsafe_allow_html=True)
