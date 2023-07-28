@@ -6,7 +6,7 @@ The data is being obtained from the API provided by [https://exchangerate.host](
 
 Please visit the app for more details!
 
-
+https://github.com/ineelhere/forex-connect/assets/64887729/34be2e72-67b8-4844-a5d6-fa7ba2ced2e7
 
 <p class="jumbotron-heading" align='center'>
     Indraneel Chakraborty | 2023
